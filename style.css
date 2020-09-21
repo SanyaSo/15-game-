@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.field{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+}
+.cell{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(67, 139, 161);
+    color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    cursor: pointer;
+}
